@@ -1,11 +1,12 @@
-#### 얼굴 인식 모델(<span style="color:blue">face-detection-adas-0001</span>)에 대해서 [여기](https://docs.openvino.ai/2022.1/omz_models_model_face_detection_adas_0001.html)에서 알아봅니다.
+## 얼굴 인식 
+### 얼굴 인식 모델(<span style="color:blue">face-detection-adas-0001</span>) => [여기클릭](https://docs.openvino.ai/2022.1/omz_models_model_face_detection_adas_0001.html)
 
 <img src="https://docs.openvino.ai/2022.1/_images/face-detection-adas-0001.png" style="width:400px; float:left;" />
 <div style="clear:both;"></div>
 
 네트워크(모델)는 모양이 [1, 1, N, 7] 인 blob을 출력합니다. <br>
 여기서 N은 감지 된 경계 상자의 수입니다. 각 탐지에 대해 설명은 다음과 같은 형식을 갖습니다.<br>
-<b>[image_id, label, conf, x_min, y_min, x_max, y_max]
+<b>[image_id, label, conf, x_min, y_min, x_max, y_max]</b>
 
 A very basic introduction to using face detection models with OpenVINO™ 
 
